@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Christian\Desktop\Ferdig4life</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CoordinateManaging.dll">
+      <publishTime>04/23/2015 15:08:09</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>03/20/2015 21:32:30</publishTime>
+    </File>
+    <File Include="bin/Ruteplantjenesten.dll">
+      <publishTime>05/08/2015 16:16:17</publishTime>
+    </File>
+    <File Include="bin/travelroute.dll">
+      <publishTime>05/08/2015 16:16:17</publishTime>
+    </File>
+    <File Include="bin/VisVeg_02.dll">
+      <publishTime>05/08/2015 16:16:18</publishTime>
+    </File>
+    <File Include="blackloading.png">
+      <publishTime>05/07/2015 10:16:22</publishTime>
+    </File>
+    <File Include="conv.js">
+      <publishTime>01/19/2015 16:26:14</publishTime>
+    </File>
+    <File Include="convert.js">
+      <publishTime>05/08/2015 16:15:22</publishTime>
+    </File>
+    <File Include="disk.png">
+      <publishTime>03/13/2015 16:38:06</publishTime>
+    </File>
+    <File Include="frontend.js">
+      <publishTime>05/08/2015 16:10:41</publishTime>
+    </File>
+    <File Include="hand.jpg">
+      <publishTime>03/03/2015 12:24:12</publishTime>
+    </File>
+    <File Include="hand.png">
+      <publishTime>03/03/2015 14:33:32</publishTime>
+    </File>
+    <File Include="Index.html">
+      <publishTime>05/08/2015 16:12:56</publishTime>
+    </File>
+    <File Include="js.js">
+      <publishTime>01/20/2015 17:47:28</publishTime>
+    </File>
+    <File Include="map.html">
+      <publishTime>05/08/2015 13:38:30</publishTime>
+    </File>
+    <File Include="myjs.js">
+      <publishTime>05/05/2015 11:25:20</publishTime>
+    </File>
+    <File Include="pil.png">
+      <publishTime>04/01/2015 13:33:21</publishTime>
+    </File>
+    <File Include="Spin.js">
+      <publishTime>05/08/2015 14:21:29</publishTime>
+    </File>
+    <File Include="tabcontent.js">
+      <publishTime>03/31/2015 16:26:39</publishTime>
+    </File>
+    <File Include="theme.css">
+      <publishTime>05/08/2015 16:11:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/08/2015 16:16:18</publishTime>
+    </File>
+    <File Include="WebService.asmx">
+      <publishTime>03/20/2015 21:36:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

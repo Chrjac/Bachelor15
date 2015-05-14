@@ -1,0 +1,142 @@
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GUItoWeb – Kopi\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GUItoWeb – fungerende\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\GitHub\Bachelor\GUItoWeb – fungerende – 03.03.15\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\Ny mappe (3)\VisVeg_02_01\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\VisVeg_02_01_23.03\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\decodeCG.exe
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\decodeCG.pdb
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\decodeCG.exe
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\decodeCG.pdb
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+F:\Dropbox\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\visveg_1404\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Desktop\VisVeg_02\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb

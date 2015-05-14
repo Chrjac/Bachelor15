@@ -1,0 +1,13 @@
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.pdb
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\bin\Release\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Release\CoordinateManaging.pdb

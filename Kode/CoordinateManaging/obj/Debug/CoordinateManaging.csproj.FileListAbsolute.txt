@@ -1,0 +1,30 @@
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Documents\Ny mappe (2)\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Documents\Ny mappe (5)\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Glenn\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\nyeste_visveg_2\nyeste_visveg\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
+C:\Users\Ingvild\Dropbox\Bachelor\Betatester\funkerikkenoenting\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.dll
+C:\Users\Christian\Desktop\VisVeg_02\CoordinateManaging\bin\Debug\CoordinateManaging.pdb
+C:\Users\Christian\Desktop\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Desktop\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.dll
+C:\Users\Christian\Desktop\VisVeg_02\CoordinateManaging\obj\Debug\CoordinateManaging.pdb
