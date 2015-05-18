@@ -98,11 +98,6 @@ function getCoordinateStart(adresse) {
 
     geocoder.geocode({ 'address': adresse }, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
-            map.setCenter(results[0].geometry.location);
-            var marker = new google.maps.Marker({
-                map: map,
-                position: results[0].geometry.location
-            });
             window.startCoordinates = (results[0].geometry.location);
         } else {
             alert('Kunne ikke hente koordinater. Feilmelding: ' + status);
@@ -115,11 +110,6 @@ function getCoordinatesStop(adresse) {
 
     geocoder.geocode({ 'address': adresse }, function (results, status) {
         if (status == google.maps.GeocoderStatus.OK) {
-            map.setCenter(results[0].geometry.location);
-            var marker = new google.maps.Marker({
-                map: map,
-                position: results[0].geometry.location
-            });
             window.stopCoordinates = (results[0].geometry.location);
         } else {
             alert('Kunne ikke hente kordinater. Feilmelding: ' + status);
@@ -153,11 +143,6 @@ function via1() {
     var viapunkt = document.getElementById('text1');
         geocoder.geocode({ 'address': viapunkt.value }, function (results, status) {
             if (status == google.maps.GeocoderStatus.OK) {
-                map.setCenter(results[0].geometry.location);
-                var marker = new google.maps.Marker({
-                    map: map,
-                    position: results[0].geometry.location
-                });
                 window.m2 = (results[0].geometry.location);
                 //console.log('Jeg er viapunkt fra tekst1 ' + m2);
             } else {
@@ -313,6 +298,11 @@ function Click() {
     var target = document.getElementById('foo');
     var spinner = new Spinner(opts).spin(target);
     
+}
+function popitup(url) {
+    newwindow = window.open(url, 'name', 'height=300,width=550');
+    if (window.focus) { newwindow.focus() }
+    return false;
 }
 
 

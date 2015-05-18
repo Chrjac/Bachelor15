@@ -64,6 +64,7 @@
     <Content Include="frontend.js" />
     <Content Include="hand.jpg" />
     <Content Include="hand.png" />
+    <Content Include="help.html" />
     <Content Include="Index.html" />
     <Content Include="js.js" />
     <Content Include="map.html" />
