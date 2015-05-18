@@ -156,13 +156,13 @@ function putnewArray() {
                 return true;
         })
     })
-   // console.log("Jeg er sortert array");
+    // console.log("Jeg er sortert array");
     //console.log(result);
 
 }
 
 
-function latlongToUTM1(y,x) {
+function latlongToUTM1(y, x) {
 
     declarations();
 
@@ -228,28 +228,36 @@ function sendtoAjax(startConverted, stoppConverted) {
 
     saveValue();
 
-        if (typeof (viakoordinater) == 'undefined') {
+    if (typeof (viakoordinater) == 'undefined') {
 
-      
-            var startt = [starttext, startConverted[0], startConverted[1]];
-            var stoppt = [stopptext, stoppConverted[0], stoppConverted[1]];
-            var viaall = null;
 
-        }
-
-        else {
-
-            var startt = [starttext, startConverted[0], startConverted[1]];
-            var stoppt = [stopptext, stoppConverted[0], stoppConverted[1]];
-            var viaall = [];
-            viaall = result;
-
-        }
-
-        openWebservice(startt, stoppt, viaall);
-
+        var startt = [starttext, startConverted[0], startConverted[1]];
+        var stoppt = [stopptext, stoppConverted[0], stoppConverted[1]];
+        var viaall = null;
 
     }
+
+    else {
+
+        var startt = [starttext, startConverted[0], startConverted[1]];
+        var stoppt = [stopptext, stoppConverted[0], stoppConverted[1]];
+        var viaall = [];
+        viaall = result;
+
+    }
+
+    openWebservice(startt, stoppt, viaall);
+
+
+}
+var Toll;
+var Start;
+var Stop;
+var Via;
+var Distance;
+var Comment;
+var Route;
+var Vehicle;
 
 function openWebservice(startInput, stoppInput, viaInput) {
 
@@ -257,14 +265,14 @@ function openWebservice(startInput, stoppInput, viaInput) {
     var stopp = stoppInput;
     var via = viaInput;
     var comment = document.getElementById('kommentar').value;
-  
+
     var vehicleSelected;
 
     if (document.getElementById('r1').checked)
         vehicleSelected = 1;
-    else if (document.getElementById('r2').checked) 
+    else if (document.getElementById('r2').checked)
         vehicleSelected = 2;
-    else if (document.getElementById('r3').checked) 
+    else if (document.getElementById('r3').checked)
         vehicleSelected = 3;
 
     var jsonText = JSON.stringify({ Start: start, Stopp: stopp, Via: via, Vehicle: vehicleSelected, Comment: comment });
@@ -273,14 +281,14 @@ function openWebservice(startInput, stoppInput, viaInput) {
         $.ajax({
             type: "POST",
             url: "http://localhost:57366/WebService.asmx/PassToTravelRoute",
-          //  url: "http://donau.hiof.no/B015_G02/Webservice.asmx/PassToTravelRoute",
+            
             data: jsonText,
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             success: function (msg) {
 
                 if (msg.d.Start == null) {
-                    
+
                     //må fikse exptionhandler
 
                 }
@@ -293,6 +301,17 @@ function openWebservice(startInput, stoppInput, viaInput) {
                             drivingroute = drivingroute + msg.d.Via[i] + "<br>";
                         }
                     }
+
+                    Toll = msg.d.ResultToImport.BarrierInfo.TotalCost;
+                    Start = msg.d.ResultToImport.DirectionInfo.Start;
+                    Stop = msg.d.ResultToImport.DirectionInfo.Stopp;
+                    Via = msg.d.ResultToImport.DirectionInfo.Via;
+                    Distance = msg.d.ResultToImport.DirectionInfo.Distance;
+                    Comment = msg.d.ResultToImport.DirectionInfo.Comment;
+                    Route = msg.d.ResultToImport.DirectionInfo.CompressedDirections
+                    Vehicle = msg.d.ResultToImport.DirectionInfo.Vehicle
+
+                    document.getElementById("out_takst").innerHTML = "0 Kr";
                     document.getElementById("out").innerHTML = drivingroute;
                     var distance = msg.d.Distance;
                     distance = Math.round(distance / 1000);
@@ -302,32 +321,28 @@ function openWebservice(startInput, stoppInput, viaInput) {
                     var tid = parseInt(msg.d.Time);
                     var min = tid;
                     var timeDescription;
-                    
-                    if(min >60)
-                    {
-                        
+
+                    if (min > 60) {
+
                         var hoursDecimal = min / 60;
                         var hours = parseInt(hoursDecimal);
                         var remainingMin = (hoursDecimal - (parseFloat(hours))) * 60
                         timeDescription = hours + " Time(r) og " + Math.round(remainingMin) + " Minutt(er) ";
                     }
-                    else
-                    {
+                    else {
                         timeDescription = min + " Minutter";
                     }
-                    document.getElementById("out_time").innerHTML =  timeDescription;
+                    document.getElementById("out_time").innerHTML = timeDescription;
                     document.getElementById("comment").innerHTML = msg.d.ResultToImport.DirectionInfo.Comment;
-                    var ferCount =  msg.d.FerryCount;
-                    if (ferCount != 0)
-                    {
-                        document.getElementById("out_ferries").innerHTML = document.getElementById("out_ferries").innerHTML = "Denne ruten inneholder fergeovergang(er), ekstra kostnader kan påløpe";
+                    var ferCount = msg.d.FerryCount;
+                    if (ferCount != 0) {
+                        document.getElementById("out_ferries").innerHTML = "Denne ruten inneholder fergeovergang(er), ekstra kostnader kan påløpe";
                     }
-                    else
-                    {
+                    else {
                         document.getElementById("out_ferries").innerHTML = "";
                     }
-                    
-                    
+
+
                     if (msg.d.Barriers != []) {
                         for (var i = 0; i < msg.d.Barriers.length; i++) {
 
@@ -355,12 +370,12 @@ function openWebservice(startInput, stoppInput, viaInput) {
 
                     writeAllDir(msg.d.Directions.FullRoadDescription);
                     document.getElementById("CompRD").innerHTML = msg.d.Directions.CompressedRoadDescription;
+
                     plot(msg.d.Start, msg.d.Stopp, msg.d.Coordinates, distance);
                 }
             },
-            error: function (request, error, errorThrown)
-            {
-               // alert(request.responseText);
+            error: function (request, error, errorThrown) {
+                // alert(request.responseText);
                 alert("Kunne ikke beregne angitt rute");
                 document.getElementById('overlay').style.visibility = "hidden";
                 location.reload();
@@ -379,7 +394,7 @@ function writeAllDir(dir) {
         directions = directions + "<br><b>" + dir[i].RoadNumber + "</b> <br> " + tekst + "<br>";
     }
     document.getElementById("allDir").innerHTML = "<br>Kjørebeskrivelse" + directions;
-    
+
     cleanUp();
 }
 function cleanUp() {
@@ -391,6 +406,12 @@ function cleanUp() {
     document.getElementById("sortable").innerHTML = '';
     document.getElementById('beregnknapp').disabled = false;
 }
+function Storage() {
+
+
+    alert("Til HRessurs: \n\nStart: " + Start + "\n" + "Stopp: " + Stop + "\n" + "Via: " + Via + "\n" + "Km: " + Distance / 1000 + "\n" + "Bompenger: " + Toll +"Kr\n" + "Kommentar: " + Comment + "\n" + "Rute: " + Route + "\n" + "Kjøretøy:" + Vehicle);
+}
+
 
 
 

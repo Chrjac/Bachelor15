@@ -21,17 +21,17 @@
 
 
 </head>
-<body>  
+<body>
     <div id="overlay">
         <p id="fadeut" style="color:blue"></p>
     </div>
     <div id="foo"></div>
-   <!-- <div id="img">
-        
-            <img src="blackloading.png">
-    </div>
-   -->
-    
+    <!-- <div id="img">
+
+             <img src="blackloading.png">
+     </div>
+    -->
+
 
     <br /><br /><br /><br />
     <div id="content">
@@ -49,10 +49,11 @@
                 <input type="text" id="start" placeholder="Angi startsted"><br />
 
                 <ul id="sortabletwo">
-                  <li id="save"><input type="text" id="text1" class="inputcss" placeholder="Angi viapunkt ved behov"/>
-                      <button class="ButtonPluss" id="buttonplus" onclick="via1(),addListElement()">Lagre</button>
-                      <button class="ButtonPluss" onclick="deleteVias()">Reset</button>
-                  </li>
+                    <li id="save">
+                        <input type="text" id="text1" class="inputcss" placeholder="Angi viapunkt ved behov" />
+                        <button class="ButtonPluss" id="buttonplus" onclick="via1(),addListElement()">Lagre</button>
+                        <button class="ButtonPluss" onclick="deleteVias()">Reset</button>
+                    </li>
 
                 </ul>
                 <ul id="sortable"></ul>
@@ -60,12 +61,12 @@
                 <b>Stopp: </b><br />
                 <input type="text" id="end" placeholder="Angi stopsted"><br /><br />
 
-                <textarea  id="kommentar" placeholder="Eventuell kommentar"></textarea><br /><br />
-                
+                <textarea id="kommentar" placeholder="Eventuell kommentar"></textarea><br /><br />
+
 
                 <!--<button type="button" id="leggtilknapp" class="ButtonCss" style="display:normal" onclick="addinpcss();">Legg til</button>-->
-              
-                <input type="button" id="beregnknapp" class="ButtonCss" value="Beregn"  onclick="calcRoute()"><br /><br />
+
+                <input type="button" id="beregnknapp" class="ButtonCss" value="Beregn" onclick="calcRoute()"><br /><br />
             </div>
             <div id="ErrorMessages">
                 <span style="color:red" id="ErrorMessage"></span>
@@ -75,13 +76,16 @@
 
         <div id="contentright">
             <h2>Info</h2>
-            <p>Dobbelsjekk at all informasjon stemmer i forhold til reiseruten. Hvis reiseruten er korrekt, trykk bekreft. 
-            Hvis ikke, prøv å legge til et eller flere viapunkter og beregn rute på nytt.</p>
-            <p>Legg til viapunkter ved å fylle inn feltet, trykk deretter på lagre-knappen. Om nødvendig, sorter viapunktene ved å trykke på 
-                et av de grå feltene og dra det rundt med musepekeren. 
+            <p>
+                Dobbelsjekk at all informasjon stemmer i forhold til reiseruten. Hvis reiseruten er korrekt, trykk bekreft.
+                Hvis ikke, prøv å legge til et eller flere viapunkter og beregn rute på nytt.
+            </p>
+            <p>
+                Legg til viapunkter ved å fylle inn feltet, trykk deretter på lagre-knappen. Om nødvendig, sorter viapunktene ved å trykke på
+                et av de grå feltene og dra det rundt med musepekeren.
             </p>
             <br />
-            
+
         </div>
         <div id="everything">
             <div id="TabView" style="pointer-events:none">
@@ -93,22 +97,23 @@
                 </ul>
                 <div class="tabcontents">
                     <div id="view1">
-                      <div id="map-canvas" style="visibility:hidden"></div>  
+                        <div id="map-canvas" style="visibility:hidden"></div>
                     </div>
-                   
-                   
+
+
                     <div id="view2">
-                        
-                        <br /><div id="out_ferries" style="color:red"></div>
+
+                        <br /><b>Komprimert kjørerute: </b><div id="CompRD"></div>
+                        <div id="out_ferries" style="color:red"></div>
                         <br /><b>Avstand:</b><div id="out_km"></div>
                         <br /><b>Total tid: </b><div id="out_time"></div>
-                      <br />  <b>Bompenger:</b><div id="out_takst"></div>
-                       <br /><b>Du har kjørt strekningen:</b> <div id="out"></div> 
-                        <br /><b>Kommentar:</b> <div id="comment"></div>                     
+                        <br />  <b>Bompenger:</b><div id="out_takst"></div>
+                        <br /><b>Du har kjørt strekningen:</b> <div id="out"></div>
+                        <br /><b>Kommentar:</b> <div id="comment"></div>
                     </div>
                     <div id="view3">
-                    <div id="CompRD"></div>
-                    <div id="allDir"></div>
+                        
+                        <div id="allDir"></div>
                         <div id="directionList">
                             <div class="auto">
                                 <ol class="tree" id="hest"></ol>
@@ -127,26 +132,26 @@
                     <li><a href="#view1">Info</a></li>
                 </ul>
                 <div class="tabcontents2">-->
-                    <!--<div id="Div1">
+                <!--<div id="Div1">
                         <i>
                             Dobbelsjekk at all informasjon stemmer i forhold til reiseruten<br />
-                            Hvis reiseruten er korrekt, trykk bekreft. 
+                            Hvis reiseruten er korrekt, trykk bekreft.
                             Hvis ikke, prøv å legge til et eller flere viapunkter og beregn rute på nytt
                         </i>
                     </div>
                 </div>-->
             </div>
             <br>
-            <input type="button" class="ButtonCss" value="Bekreft rute" onclick=""><br /><br />
+            <input type="button" class="ButtonCss" value="Bekreft rute" onclick="Storage()"><br /><br />
         </div>
-    
+
     </div>
 
- 
-     
+
+
     <script src="frontend.js"></script>
     <script src="convert.js"></script>
-    
+
     <script>
 
         $(function () {
@@ -160,27 +165,27 @@
 
     </script>
     <script>
-       
-        
+
+
         //$("#TabView").tabs({ selected: 1 });
-        
+
         $("#TabView").tabs({ active: 0 });
         function forceTab() {
             $("#TabView").tabs({ active: 0 });
         }
 
-        
-        
+
+
         function timer() {
             $("#fadeut").show();
-            
+
         }
 
         function fade_out() {
             $("#fadeut").fadeOut();
         }
-       
-       
+
+
     </script>
 </body>
 </html>

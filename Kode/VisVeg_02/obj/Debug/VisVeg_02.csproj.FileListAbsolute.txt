@@ -268,3 +268,17 @@ C:\Users\Christian\Desktop\VisVeg_03\VisVeg_02\bin\CoordinateManaging.pdb
 C:\Users\Christian\Desktop\VisVeg_03\VisVeg_02\obj\Debug\VisVeg_02.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Desktop\VisVeg_03\VisVeg_02\obj\Debug\VisVeg_02.dll
 C:\Users\Christian\Desktop\VisVeg_03\VisVeg_02\obj\Debug\VisVeg_02.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.dll.config
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\Ruteplantjenesten.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\travelroute.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\Newtonsoft.Json.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\CoordinateManaging.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\Ruteplantjenesten.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\travelroute.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\Newtonsoft.Json.xml
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\bin\CoordinateManaging.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.pdb
