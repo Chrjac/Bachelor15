@@ -172,56 +172,7 @@ function via1() {
 
 }
 
-function checkViaButton() {
 
-    //var parent = document.getElementById('sortabletwo');
-    var buttonplus = document.getElementById('buttonplus');
-    var notice = document.getElementById('noticevia');
-
-    if (counter == 5) {
-
-        buttonplus.style.display = 'none';
-        notice.innerHTML = 'Maks antall viapunkter lagt til';
-    }
-}
-
-function deleteVias() {
-
-    viaarray.length = 0;
-    document.getElementById('sortable').innerHTML = '';
-    counter = 0;
-    var buttonplus = document.getElementById('buttonplus');
-
-    if (buttonplus.style.display == 'none') {
-
-        buttonplus.style.display = 'inline-block';
-        document.getElementById('noticevia').innerHTML = '';
-    }
-
-}
-
-
-function saveValue() {
-    phrases = [];
-    phrase = '';
-    $('#sortable').each(function () {
-
-        $(this).find('li').each(function () {
-            var current = $(this);
-            if (current.children().size() > 0) {
-                return true;
-            }
-            phrase += $(this).text() + ':';
-        });
-        phrases.push(phrase);
-    });
-
-    var fras = phrases.toString();
-
-    window.frase = fras.split(':');
-
-    putnewArray();
-}
 
 function plot(start, stopp, array, distance) {
     document.getElementById('TabView').style.pointerEvents = "all";

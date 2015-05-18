@@ -59,3 +59,8 @@ C:\Users\Christian\Desktop\VisVeg_02\travelroute\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Christian\Desktop\VisVeg_02\travelroute\obj\Debug\travelroute.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Desktop\VisVeg_02\travelroute\obj\Debug\travelroute.dll
 C:\Users\Christian\Desktop\VisVeg_02\travelroute\obj\Debug\travelroute.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\travelroute\bin\Debug\travelroute.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\travelroute\bin\Debug\travelroute.pdb
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\travelroute\obj\Debug\travelroute.csprojResolveAssemblyReference.cache
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\travelroute\obj\Debug\travelroute.dll
+C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\travelroute\obj\Debug\travelroute.pdb
