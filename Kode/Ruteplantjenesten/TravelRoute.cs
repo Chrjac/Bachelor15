@@ -53,10 +53,17 @@ namespace Ruteplantjenesten
                 string final = stream.ReadToEnd();
 
                 var test = response.StatusCode;
-               
-                    final.Contains("directions");
+
+                if (final.Contains("directions"))
+                {
                     var b = CalculateResultFromJson(final);
                     return b;
+                }
+                else
+                {
+                    throw new Exception();
+                }
+                    
                 
             }
             catch (Exception Ex)

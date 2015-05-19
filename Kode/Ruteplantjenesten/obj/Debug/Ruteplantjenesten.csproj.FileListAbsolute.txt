@@ -140,3 +140,14 @@ C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\bin\Debug\Newton
 C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
 C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
 C:\Users\Christian\Desktop\VisVeg_02_Mekkmekk\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\travelroute.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\travelroute.pdb
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+C:\Users\Christian\Documents\GitHub\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
