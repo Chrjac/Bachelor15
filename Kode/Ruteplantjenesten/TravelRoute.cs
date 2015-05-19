@@ -246,8 +246,9 @@ namespace Ruteplantjenesten
                 Via = new List<String>(viaList),
                 Vehicle = input.Vehicle,
                 Distance = result.Distance,
-                CompressedDirections = listOfRoadDescription.CompressedRoadDescription,
+                CompressedDirections = "Kjørt fra " + input.Start.Name + " til " + input.Stopp.Name + ", " + listOfRoadDescription.CompressedRoadDescription,
                 Comment = input.Comment
+               
             };
             travelroute.ToHRessursBarriers finalBarriersResult = new travelroute.ToHRessursBarriers
             {
