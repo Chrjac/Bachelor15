@@ -295,3 +295,17 @@ C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\VisVeg_02\bin\Coor
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.csprojResolveAssemblyReference.cache
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.dll
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.pdb
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.dll.config
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\VisVeg_02.pdb
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\Ruteplantjenesten.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\travelroute.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\Newtonsoft.Json.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\CoordinateManaging.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\Ruteplantjenesten.pdb
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\travelroute.pdb
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\Newtonsoft.Json.xml
+F:\Git\Bachelor15\Kode\VisVeg_02\bin\CoordinateManaging.pdb
+F:\Git\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.csprojResolveAssemblyReference.cache
+F:\Git\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.dll
+F:\Git\Bachelor15\Kode\VisVeg_02\obj\Debug\VisVeg_02.pdb

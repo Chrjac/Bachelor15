@@ -162,3 +162,14 @@ C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\Ruteplantjenesten\
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
 C:\Users\Glenn\Documents\HIOF\bachelor_webapp\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.dll
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Ruteplantjenesten.pdb
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\CoordinateManaging.dll
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.dll
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\travelroute.dll
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\CoordinateManaging.pdb
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\travelroute.pdb
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\bin\Debug\Newtonsoft.Json.xml
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.csprojResolveAssemblyReference.cache
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.dll
+F:\Git\Bachelor15\Kode\Ruteplantjenesten\obj\Debug\Ruteplantjenesten.pdb

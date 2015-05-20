@@ -6,7 +6,7 @@ var inpto = document.getElementById('end');
 var via = document.getElementById('text1');
 var options = {
 
-    types: [],
+    types: ['geocode'],
     componentRestrictions: { country: 'nor' }
     
 
