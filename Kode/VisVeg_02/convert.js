@@ -1,6 +1,5 @@
-﻿window.viaarray = [];
 
-window.onearray = [];
+
 
 function declarations() {
 
@@ -46,6 +45,12 @@ function declarations() {
     //sone sentralmeridian
     zcm = 0;
 }
+
+//Funksjon som konverterer koordinater og oppretter arrays for viapunkter
+
+window.viaarray = [];
+
+window.onearray = [];
 
 
 function toUTMVia() {
@@ -105,6 +110,8 @@ function toUTMVia() {
     var xkordV = 10 * (x) / 10;
     var ykordV = 10 * y / 10;
 
+    //Legger viapunkter pluss stedsnavn i array
+
     window.viakoordinater = xkordV + ',' + ykordV + ';';
 
     onearray = [viatext, xkordV, ykordV];
@@ -113,6 +120,8 @@ function toUTMVia() {
     console.log(viaarray);
 
 }
+
+//Lager listeelementer for sorterbare viapunkter. Henter kun stedsnavn
 
 i = 0;
 
@@ -127,11 +136,20 @@ function addListElement() {
 
         document.getElementById('ErrorMessage').innerHTML = '';
 
-        i++;
+        i++;
+
         idText = "idList" + i;
-        var numberList = document.getElementById("sortable");        var newNumberListItem = document.createElement("li");
-        newNumberListItem.setAttribute("id", idText);
-        newNumberListItem.setAttribute("class", "ui-state-default");        newNumberListItem.innerHTML = viatext;
+
+        var numberList = document.getElementById("sortable");
+
+        var newNumberListItem = document.createElement("li");
+
+        newNumberListItem.setAttribute("id", idText);
+
+        newNumberListItem.setAttribute("class", "ui-state-default");
+
+        newNumberListItem.innerHTML = viatext;
+
         numberList.appendChild(newNumberListItem);
 
         document.getElementById('text1').value = '';
@@ -140,6 +158,7 @@ function addListElement() {
 
 }
 
+//Funksjon for å sortere viapunkter på nøkkelelement
 
 function putnewArray() {
     window.result = [];
@@ -156,11 +175,11 @@ function putnewArray() {
                 return true;
         })
     })
-    // console.log("Jeg er sortert array");
-    //console.log(result);
+   
 
 }
 
+//Konvertering av start og stopp. Hentes inn som parametere
 
 function latlongToUTM1(y, x) {
 
@@ -375,7 +394,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
                 }
             },
             error: function (request, error, errorThrown) {
-                // alert(request.responseText);
+              
                 alert("Kunne ikke beregne angitt rute");
                 document.getElementById('overlay').style.visibility = "hidden";
                 location.reload();
@@ -407,6 +426,16 @@ function cleanUp() {
     document.getElementById('beregnknapp').disabled = false;
 }
 function Storage() {
+
+	if(Vehicle == 1){
+		Vehicle = "Mc";
+	}
+	else if(Vehicle == 2) {
+		Vehicle = "Bil";
+	}
+	else {
+		Vehicle = "Lastebil";
+	}
 
 
     alert("Til HRessurs: \n\nStart: " + Start + "\n" + "Stopp: " + Stop + "\n" + "Via: " + Via + "\n" + "Km: " + Distance / 1000 + "\n" + "Bompenger: " + Toll +"Kr\n" + "Kommentar: " + Comment + "\n" + "Rute: " + Route + "\n" + "Kjøretøy:" + Vehicle);

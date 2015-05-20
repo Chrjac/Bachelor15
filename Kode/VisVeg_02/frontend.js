@@ -1,4 +1,7 @@
-﻿var inpen = document.getElementById('start');
+
+//Henter Google Autocomplete til tekstfeltene for start, stopp og via.
+
+var inpen = document.getElementById('start');
 var inpto = document.getElementById('end');
 var via = document.getElementById('text1');
 var options = {
@@ -45,6 +48,8 @@ var opts = {
     left: '50%'
 };
 
+//Initialiserer Google Maps.
+
 
 function initialize() {
     directionsDisplay = new google.maps.DirectionsRenderer();
@@ -57,7 +62,10 @@ function initialize() {
     directionsDisplay.setMap(map);
 }
 
-//Start med å se her. Kjøreruten lages her
+//Funksjon som kjøres når brukeren trykker "beregn". 
+//Sjekker om brukeren har fylt inn start, stopp og ev. glemt tekst i viapunk-feltet
+//Kjører loading-animasjon
+
 function calcRoute() {
 
     window.starttext = document.getElementById('start').value;
@@ -94,6 +102,8 @@ function calcRoute() {
     forceTab();
 }
 
+//Funksjoner for å hente koordinatene for start og stopp
+
 function getCoordinateStart(adresse) {
 
     geocoder.geocode({ 'address': adresse }, function (results, status) {
@@ -118,6 +128,9 @@ function getCoordinatesStop(adresse) {
         add(window.startCoordinates.toString(), window.stopCoordinates.toString());
     });
 }
+
+//Henter ut koordnatene. Deler (splitter) koordinatene i longitude og latitude. 
+//Fjerner parenteser.
 
 function add(startCoordinates, stopCoordinates) {
     var text = startCoordinates.replace(/[\(\)]/g, '').split(',');
@@ -160,21 +173,22 @@ function via1() {
             window.latitude2 = parseFloat(text2[0]);
             window.longitude2 = parseFloat(text2[1]);
 
-            //console.log('Jeg er google via 1: ' + latitude2 + ' ' + longitude2);
 
             toUTMVia();
         });
 
         
         counter++;
-        //console.log(counter);
+       
         checkViaButton();
 
 }
 
+//Sjekker om knappen er trykket 5 ganger. Blir fjernet om telleren er satt til 5.
+
 function checkViaButton() {
 
-    //var parent = document.getElementById('sortabletwo');
+   
     var buttonplus = document.getElementById('buttonplus');
     var notice = document.getElementById('noticevia');
 
@@ -184,6 +198,8 @@ function checkViaButton() {
         notice.innerHTML = 'Maks antall viapunkter lagt til';
     }
 }
+
+//Sletter alle viapunkter. Dersom knappen for å legge til er fjernet, blir den lagt til.
 
 function deleteVias() {
 
@@ -200,6 +216,7 @@ function deleteVias() {
 
 }
 
+//Henter alle stedsnavn fra ul-listen over viapunkter. Legger de i et array.
 
 function saveValue() {
     phrases = [];
