@@ -58,7 +58,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="blackloading.png" />
-    <Content Include="conv.js" />
     <Content Include="convert.js" />
     <Content Include="disk.png" />
     <Content Include="frontend.js" />
@@ -68,7 +67,6 @@
     <Content Include="Index.html" />
     <Content Include="js.js" />
     <Content Include="map.html" />
-    <Content Include="myjs.js" />
     <Content Include="pil.png" />
     <Content Include="Spin.js" />
     <Content Include="tabcontent.js" />
