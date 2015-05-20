@@ -24,7 +24,7 @@ namespace Ruteplantjenesten
             return calculatedResult;
         }
 
-
+        //Søk mot Ruteplantjenesten
         public travelroute.Result Search(travelroute.Route input)
         {
             string start = input.Start.Xcoordinate + "," + input.Start.Ycoordinate;
@@ -53,8 +53,10 @@ namespace Ruteplantjenesten
                 string final = stream.ReadToEnd();
 
                 var test = response.StatusCode;
+                //hvis json inneholder directions (ruteplantjenesten fant koordinater og alt gikk som det skulle), parses json.
                 if (final.Contains("directions"))
                 {
+                    
                     var b = CalculateResultFromJson(final);
                     return b;
                 }
@@ -70,9 +72,10 @@ namespace Ruteplantjenesten
 
 
         }
+        //Parser og lagrer alle verdier vi trenger fra jsonfila i et objekt av typen Result
         public travelroute.Result CalculateResultFromJson(string jsonInput)
         {
-            //try?
+          
             JObject o = JObject.Parse(jsonInput);
 
             var distance = int.Parse(o["directions"][0]["summary"]["totalLength"].ToString());
@@ -83,6 +86,7 @@ namespace Ruteplantjenesten
             var barrierList = new List<travelroute.Barrier>();
             var time = o["directions"][0]["summary"]["totalDriveTime"].ToString();
 
+            //henter navn og priser for alle bomstasjoner på ruta. 
             foreach (var i in o["directions"][0]["features"])
             {
                 if (i["attributes"]["roadFeatures"].HasValues == true)
@@ -104,8 +108,8 @@ namespace Ruteplantjenesten
                     }
                 }
             }
+            //Henter compressedGeometry fra json
             var compressedGeometryList = new List<String>();
-
 
             foreach (var i in o["directions"][0]["features"])
             {
@@ -113,15 +117,14 @@ namespace Ruteplantjenesten
                 compressedGeometryList.Add(b);
 
             }
-
+            //dekomprimerer koordinater
             CoordinateManaging.Decompresser R = new CoordinateManaging.Decompresser();
             var result = R.Start(compressedGeometryList);
-
+            //konverterer koordinatene
             CoordinateManaging.ConverterUtmToLatLng B = new CoordinateManaging.ConverterUtmToLatLng();
             var converted = B.ConvertAll(result);
-
+            //henter alle vegvbeskrivelsene på ruta
             var directionList = new List<List<String>>();
-
             foreach (var a in o["directions"][0]["features"])
             {
 
@@ -149,11 +152,11 @@ namespace Ruteplantjenesten
             return barrierAndDistanceObject;
         }
 
-
+        //gjør om veibeskrivelsene slik at vi kan få en bedre utskrift
         public travelroute.Directions CalculateRoadDescriptionDirectionsObject(travelroute.Result result)
         {
             var roadNumberAndDescriptionSeparated = new List<travelroute.Direction>();
-
+            //henter ut veinummer og beskrivelse fra "{veinr} veibeskrivelse" til [veinummer, veibeskrivelse]
             foreach (var k in result.Directions)
             {
                 String str = k[0].ToString();
@@ -163,7 +166,7 @@ namespace Ruteplantjenesten
                 var onearray = new travelroute.Direction(res[0], res[1]);
                 roadNumberAndDescriptionSeparated.Add(onearray);
             }
-
+            //grupperer etter veinummer
             var lastRoadNumber = "";
             var groupedDirectionsByRoadNumber = new List<travelroute.RoadDescription>();
             for (var o = 0; o < roadNumberAndDescriptionSeparated.Count(); )
@@ -189,8 +192,9 @@ namespace Ruteplantjenesten
                     o++;
                 }
             }
-
-            var compressedDirectionList = "Kjørerute via ";
+            //lager den komprimerte vegbeskrivelsen. Alle veinummer kronologisk, fjerner kommunale og private veier. 
+            //Viser kun europaveg, fylkesvei og riksvei
+            var compressedDirectionList = "kjørerute via ";
     
             for (int a = 0; a < groupedDirectionsByRoadNumber.Count(); a++)
             {
@@ -214,7 +218,7 @@ namespace Ruteplantjenesten
            
             return allDirections;
         }
-
+        //Bygger ToHRessurs-objekt, som er delt i ToHRessursDirections (alt om kjørerute) og ToHRessursBarriers (alt om bomstasjoner). 
         public travelroute.ToHRessurs CalculateHRessursObject(travelroute.Route input, travelroute.Result result, travelroute.Directions listOfRoadDescription)
         {
             var viaList = new List<String>();
@@ -266,7 +270,7 @@ namespace Ruteplantjenesten
 
         }
 
-
+        //Bygger det endelige returobjektet
         public travelroute.CalculatedRoute CalcReturn(travelroute.Route input, travelroute.Result result, travelroute.Directions listOfRoadDescription, travelroute.ToHRessurs finalResult)
         {
 
@@ -289,7 +293,7 @@ namespace Ruteplantjenesten
 
             };
             return routeInfo;
-            var asd = 1;
+            
         }
 
 
