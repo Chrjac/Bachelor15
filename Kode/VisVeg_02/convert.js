@@ -242,7 +242,7 @@ function latlongToUTM1(y, x) {
     var results = [xkoordinat, ykoordinat];
     return results;
 }
-
+//bygger objekt som skal sendes til serverside basert på om viapunkter er angitt eller ikke
 function sendtoAjax(startConverted, stoppConverted) {
 
     saveValue();
@@ -277,12 +277,10 @@ var Distance;
 var Comment;
 var Route;
 var Vehicle;
+//
+function openWebservice(start, stopp, via) {
 
-function openWebservice(startInput, stoppInput, viaInput) {
-
-    var start = startInput;
-    var stopp = stoppInput;
-    var via = viaInput;
+   
     var comment = document.getElementById('kommentar').value;
 
     var vehicleSelected;
@@ -295,7 +293,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
         vehicleSelected = 3;
 
     var jsonText = JSON.stringify({ Start: start, Stopp: stopp, Via: via, Vehicle: vehicleSelected, Comment: comment });
-
+	//ajaxrequest mot Web Service
     $(document).ready(function () {
         $.ajax({
             type: "POST",
@@ -306,7 +304,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
             dataType: "json",
             success: function (msg) {
 
-                
+                //Håndterer data returnert fra serverside
                     var drivingroute = "Start: " + msg.d.Start + "<br>Stopp: " + msg.d.Stopp;
 
                     if (msg.d.Via.length != 0) {
@@ -332,7 +330,9 @@ function openWebservice(startInput, stoppInput, viaInput) {
                     var bom = "";
                     document.getElementById("out2").innerHTML = "";
                     document.getElementById("out_km").innerHTML = distance + "km";
-                    var tid = parseInt(msg.d.Time);
+                    
+					//gjør om tid fra minutter til timer og minutter
+					var tid = parseInt(msg.d.Time);
                     var min = tid;
                     var timeDescription;
 
@@ -356,7 +356,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
                         document.getElementById("out_ferries").innerHTML = "";
                     }
 
-
+					//skriver ut alle bomstasjoner med priser
                     if (msg.d.Barriers != []) {
                         for (var i = 0; i < msg.d.Barriers.length; i++) {
 
@@ -384,12 +384,12 @@ function openWebservice(startInput, stoppInput, viaInput) {
 
                     writeAllDir(msg.d.Directions.FullRoadDescription);
                     document.getElementById("CompRD").innerHTML = msg.d.Directions.CompressedRoadDescription;
-
+					//skriver ruta ut på kart
                     plot(msg.d.Start, msg.d.Stopp, msg.d.Coordinates, distance);
                 
             },
             error: function (request, error, errorThrown) {
-              
+                //håndterer eventuelle feil som oppstår på serveren
                 alert("Kunne ikke beregne angitt rute");
                 document.getElementById('overlay').style.visibility = "hidden";
                 location.reload();
@@ -397,6 +397,8 @@ function openWebservice(startInput, stoppInput, viaInput) {
         });
     });
 }
+
+//skriver ut fullstendig veibeskrivelse
 function writeAllDir(dir) {
     var directions = "";
     console.log(dir[0].TextDescription[0].DescriptionText);
@@ -411,6 +413,7 @@ function writeAllDir(dir) {
 
     cleanUp();
 }
+//nuller ut viapunkter
 function cleanUp() {
 
     counter = 0;
@@ -420,6 +423,8 @@ function cleanUp() {
     document.getElementById("sortable").innerHTML = '';
     document.getElementById('beregnknapp').disabled = false;
 }
+
+//viser hvilken informasjon som lagres i HRessurs
 function Storage() {
 
 	if(Vehicle == 1){

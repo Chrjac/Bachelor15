@@ -240,10 +240,13 @@ function saveValue() {
     putnewArray();
 }
 
+//skriver ut alle koordinater og trekker kjøreruta ved hjelp av polyline. 
 function plot(start, stopp, array, distance) {
     document.getElementById('TabView').style.pointerEvents = "all";
     console.log(array);
     console.log(array[0].Item1);
+
+    //beregner zoomnivå for kart
     var arrcount = array.length;
     var arr1 = arrcount / 2;
     var arr2 = Math.round(arr1);
@@ -291,7 +294,7 @@ function plot(start, stopp, array, distance) {
     for (var i = 0; i < array.length; i++) {
         drivingCoordinates.push(new google.maps.LatLng(array[i].Item1, array[i].Item2));
     }
-
+    //tilpasser polyline
     var drivingPath = new google.maps.Polyline({
         path: drivingCoordinates,
         geodesic: true,
@@ -310,12 +313,14 @@ function plot(start, stopp, array, distance) {
     
     
 }
-
+//animasjon når ruten beregnes
 function Click() {
     var target = document.getElementById('foo');
     var spinner = new Spinner(opts).spin(target);
     
 }
+
+//viser bruksanvisning
 function popitup(url) {
     newwindow = window.open(url, 'name', 'height=300,width=550');
     if (window.focus) { newwindow.focus() }
