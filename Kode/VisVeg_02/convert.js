@@ -306,12 +306,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
             dataType: "json",
             success: function (msg) {
 
-                if (msg.d.Start == null) {
-
-                    //må fikse exptionhandler
-
-                }
-                else {
+                
                     var drivingroute = "Start: " + msg.d.Start + "<br>Stopp: " + msg.d.Stopp;
 
                     if (msg.d.Via.length != 0) {
@@ -391,7 +386,7 @@ function openWebservice(startInput, stoppInput, viaInput) {
                     document.getElementById("CompRD").innerHTML = msg.d.Directions.CompressedRoadDescription;
 
                     plot(msg.d.Start, msg.d.Stopp, msg.d.Coordinates, distance);
-                }
+                
             },
             error: function (request, error, errorThrown) {
               
